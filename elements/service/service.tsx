@@ -6,17 +6,17 @@ import "./style.css";
 interface Props {
   title?: string;
   icon?: string;
-  href?: string | object;
+  href: string;
 }
 
 const Service = ({ title, icon, href }: Props) => {
   return (
-    <div className="service">
+    <Link href={href} className="service">
       <div className="service_icon">
         <img className="mx-auto" src={icon} alt="" />
       </div>
       <h6 className="service_title">{title}</h6>
-    </div>
+    </Link>
   );
 };
 
