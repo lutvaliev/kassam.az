@@ -1,0 +1,10 @@
+.services{
+    width: 90%;
+    padding: 114px;
+    box-shadow: 40px 40px 64px -32px #0F0F0F1A;
+    background: linear-gradient(90deg, #F4F4F4 0%, rgba(252, 252, 253, 0.81) 100.89%);
+    border: 1px solid #E7E7E7;
+    backdrop-filter: blur(16px);
+    border-radius: 48px;
+    margin-top: -70px;
+}

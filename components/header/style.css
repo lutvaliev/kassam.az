@@ -1,0 +1,11 @@
+.header_menu-item a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #28303F;
+}
+.header_search{
+    padding: 8px;
+    border: 1px solid #F1F1F1;
+    border-radius: 10px;
+    background: #fff;
+}

@@ -1,0 +1,14 @@
+.btn{
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.darkBtn{
+    color: #fff;
+    background-color: #1e1f21;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+}
+.whiteBtn{
+    color: #28303F;
+    background-color: #FFF;
+    border: 1px solid #28303F;
+}
