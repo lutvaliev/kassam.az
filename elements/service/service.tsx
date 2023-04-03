@@ -11,12 +11,12 @@ interface Props {
 
 const Service = ({ title, icon, href }: Props) => {
   return (
-    <Link className="service" href={href}>
+    <div className="service">
       <div className="service_icon">
         <img className="mx-auto" src={icon} alt="" />
       </div>
       <h6 className="service_title">{title}</h6>
-    </Link>
+    </div>
   );
 };
 
