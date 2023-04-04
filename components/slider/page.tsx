@@ -24,7 +24,9 @@ const Slider = () => {
   return (
     <section className={`main_slider ${dm_sans.className}`}>
       <Swiper
-        pagination={true}
+        pagination={{
+          clickable: true,
+        }}
         modules={[Pagination]}
         className="mySwiper"
         slidesPerView={1}

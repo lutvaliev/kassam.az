@@ -1,0 +1,15 @@
+.partners{
+    margin: 46px 0;
+}
+
+.partners .swiper{
+    overflow: initial;
+}
+
+.partners .swiper-wrapper{
+    transition-timing-function: linear;
+}
+
+.partners .swiper .swiper-wrapper .swiper-slide{
+    height: 96px;
+}

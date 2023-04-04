@@ -1,0 +1,37 @@
+.step{
+   width: 25%;
+   text-align: center;
+   flex-direction: column;
+}
+
+.step .step_icon{
+    padding: 28px;
+    border-radius: 24px;
+    display: inline-block;
+}
+
+.step .step_icon img{
+    width: 24px;
+    height: 24px;
+}
+
+.step .step_info{
+    padding-top: 20px;
+}
+
+.step .step_info-title{
+    width: 50%;
+    margin: auto;
+    font-size: 24px;
+    font-weight: 600;
+    color: #23262F;
+}
+
+.step .step_info-subtitle{
+    width: 65%;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 400;
+    color: #353945;
+    padding-top: 16px;
+}
