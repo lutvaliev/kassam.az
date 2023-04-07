@@ -49,7 +49,7 @@ const Partners = () => {
     },
   ];
   return (
-    <section className="partners_section">
+    <section className="partners_section py-6">
       <Title title="100+ Partnyor" />
       <Subtitle subtitle="Çoxsaylı ödəniş kartlarından, mobil tətbiqlərindən və arzuolunmaz nağd pul təmasından qurtulmaq istəyirsiniz?" />
       <div className="partners">

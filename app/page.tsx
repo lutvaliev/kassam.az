@@ -5,6 +5,8 @@ import { Poppins } from "next/font/google";
 import Services from "@/components/services/page";
 import Steps from "@/components/steps/page";
 import Partners from "@/components/partners/page";
+import Statisticks from "@/components/statisticks/page";
+import Download from "@/components/download/page";
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500"],
@@ -18,6 +20,8 @@ export default function Home() {
       <Services />
       <Steps />
       <Partners />
+      <Statisticks />
+      <Download />
     </main>
   );
 }

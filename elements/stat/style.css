@@ -1,0 +1,19 @@
+.stats{
+    padding: 35px 25px;
+}
+
+.stats h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #252B42;
+}
+
+.stats h6{
+    color: #737373;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.stats h1, .stats h6{
+    text-align: center;
+}
