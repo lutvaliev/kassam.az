@@ -1,21 +1,14 @@
 .service{
-    background-color: #FFFFFF;
     border: 2px solid #E7E7E7;
     border-radius: 36px;
-    display: inline-block;
-    padding: 50px 12px 28px 12px;
+    transition: .3s ease-in-out;
+}
+
+.service:hover{
+    border: 2px solid #0B0D17;
 }
 
 .service:hover .service_icon, .service:hover h6{
-    overflow: hidden;
-    transition: .4s ease-in-out;
+    transition: .3s ease-in-out;
     transform: scale(1.2);
-}
-
-.service h6{
-    color: #616161;
-    font-size: 14px;
-    font-weight: 400;
-    padding-top: 14px;
-    text-align: center;
 }

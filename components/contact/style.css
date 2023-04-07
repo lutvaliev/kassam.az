@@ -1,0 +1,23 @@
+.contact_section{
+    padding: 64px 75px;
+    border-radius: 34px;
+    background: url("../../public/images.png") center no-repeat #0B0D17;
+}
+
+.contact_section h1.title{
+    width: 100%;
+    color: white;
+}
+
+.contact_section p.subtitle{
+    width: 100%;
+}
+
+.contact_section .contact_form input, .contact_section .contact_form textarea{
+    resize: none;
+    background-color: #32343F;
+}
+
+.contact_section .contact_form button{
+    color: #28303F;
+}

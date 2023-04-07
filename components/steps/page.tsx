@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 import Step from "@/elements/step/page";
 import Title from "@/elements/title/page";
 import Subtitle from "@/elements/subtitle/page";
@@ -33,11 +32,11 @@ const Steps = () => {
     },
   ];
   return (
-    <section className="steps_section mt-11">
+    <section className="steps_section my-8">
       <div className="steps_inner py-12">
         <Title title="Kommunal ödənişlər 4 sadə addım ilə" />
         <Subtitle subtitle="Çoxsaylı ödəniş kartlarından, mobil tətbiqlərindən və arzuolunmaz nağd pul təmasından qurtulmaq istəyirsiniz? Bu mümkündür!" />
-        <div className="steps flex items-center">
+        <div className="steps flex items-center pt-16">
           {steps?.map((step) => (
             <Step key={step.title} {...step} />
           ))}

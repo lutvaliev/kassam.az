@@ -2,7 +2,6 @@ import Stat from "@/elements/stat/page";
 import Subtitle from "@/elements/subtitle/page";
 import Title from "@/elements/title/page";
 import React from "react";
-import "./style.css";
 
 const Statisticks = () => {
   const stats = [
@@ -24,11 +23,11 @@ const Statisticks = () => {
     },
   ];
   return (
-    <section className="statisticks_section mt-11">
+    <section className="statisticks_section my-8">
       <div className="statisticks_inner py-12">
         <Title title="Statistika" />
         <Subtitle subtitle="Çoxsaylı ödəniş kartlarından, mobil tətbiqlərindən və arzuolunmaz nağd pul təmasından qurtulmaq istəyirsiniz? Bu mümkündür!" />
-        <div className="statisticks flex items-center justify-around">
+        <div className="statisticks flex items-center justify-around pt-12">
           {stats?.map((stat) => (
             <Stat key={stat.title} {...stat} />
           ))}

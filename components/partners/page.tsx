@@ -16,40 +16,40 @@ SwiperCore.use([Autoplay]);
 const Partners = () => {
   const partners = [
     {
-      href: "",
+      href: "1",
       img: "./Logo.svg",
     },
     {
-      href: "",
+      href: "2",
       img: "./Logo.svg",
     },
     {
-      href: "",
+      href: "3",
       img: "./Logo.svg",
     },
     {
-      href: "",
+      href: "4",
       img: "./Logo.svg",
     },
     {
-      href: "",
+      href: "5",
       img: "./Logo.svg",
     },
     {
-      href: "",
+      href: "6",
       img: "./Logo.svg",
     },
     {
-      href: "",
+      href: "7",
       img: "./Logo.svg",
     },
     {
-      href: "",
+      href: "8",
       img: "./Logo.svg",
     },
   ];
   return (
-    <section className="partners_section py-6">
+    <section className="partners_section py-6 my-8">
       <Title title="100+ Partnyor" />
       <Subtitle subtitle="Çoxsaylı ödəniş kartlarından, mobil tətbiqlərindən və arzuolunmaz nağd pul təmasından qurtulmaq istəyirsiniz?" />
       <div className="partners">

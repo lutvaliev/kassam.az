@@ -7,10 +7,10 @@ import Link from "next/link";
 
 const Download = () => {
   return (
-    <section className="download_section py-6 flex flex-col items-center">
+    <section className="download_section pb-8 my-8 flex flex-col items-center">
       <Title title="Mobil tətbiqi yükləyin" />
       <Subtitle subtitle="Skan et və tətbiqi yüklə" />
-      <img src="./qr.png" alt="" className="my-6" />
+      <img src="./qr.png" alt="" className="my-12" />
       <div className="download_app flex">
         <Link href="" className="download_app-link mr-8">
           <img src="./playstore.png" alt="" />

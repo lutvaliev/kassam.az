@@ -7,6 +7,7 @@ import Steps from "@/components/steps/page";
 import Partners from "@/components/partners/page";
 import Statisticks from "@/components/statisticks/page";
 import Download from "@/components/download/page";
+import Contact from "@/components/contact/page";
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500"],
@@ -22,6 +23,7 @@ export default function Home() {
       <Partners />
       <Statisticks />
       <Download />
+      <Contact />
     </main>
   );
 }

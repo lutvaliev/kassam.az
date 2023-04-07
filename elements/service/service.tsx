@@ -11,11 +11,16 @@ interface Props {
 
 const Service = ({ title, icon, href }: Props) => {
   return (
-    <Link href={href} className="service">
+    <Link href={href} className="service bg-white pt-12 px-2.5 pb-7">
       <div className="service_icon">
         <img className="mx-auto" src={icon} alt="" />
       </div>
-      <h6 className="service_title">{title}</h6>
+      <h6
+        className="service_title text-sm pt-4 text-center hover:overflow-hidden"
+        style={{ color: "#616161" }}
+      >
+        {title}
+      </h6>
     </Link>
   );
 };
