@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const Select = () => {
-  return (
-    <>
-        s
-    </>
-  )
-}
+const Select = (): JSX.Element => {
+  return <>s</>;
+};
 
-export default Select
+export default Select;

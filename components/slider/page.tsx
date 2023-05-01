@@ -20,7 +20,7 @@ const dm_sans = DM_Sans({
 
 SwiperCore.use([Autoplay]);
 
-const Slider = () => {
+const Slider = (): JSX.Element => {
   return (
     <section className={`main_slider ${dm_sans.className}`}>
       <Swiper

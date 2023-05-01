@@ -3,7 +3,7 @@ import Subtitle from "@/elements/subtitle/page";
 import Title from "@/elements/title/page";
 import React from "react";
 
-const Statisticks = () => {
+const Statisticks = (): JSX.Element => {
   const stats = [
     {
       num: 9500,

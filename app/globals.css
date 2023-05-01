@@ -108,3 +108,15 @@ a {
     color-scheme: dark;
   }
 } */
+
+.showPopup{
+  display: flex;
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+.hidePopup{
+  display: none;
+  transform: translateY(-50%);
+  opacity: 0;
+}

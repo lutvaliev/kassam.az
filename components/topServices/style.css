@@ -1,0 +1,14 @@
+.topServices_section{
+    margin-top: -70px;
+}
+.topServices_section .service{
+    width: 100%;
+}
+
+.topServices_section .swiper-button-prev:after, .topServices_section .swiper-button-next:after{
+    font-size: 40px;
+    color: rgb(30 31 33 / 90%);
+}
+.topServices_section .swiper-slide:hover h6{
+    color: white !important;
+}

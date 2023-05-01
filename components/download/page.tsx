@@ -5,7 +5,7 @@ import Title from "@/elements/title/page";
 import "./style.css";
 import Link from "next/link";
 
-const Download = () => {
+const Download = (): JSX.Element => {
   return (
     <section className="download_section pb-8 my-8 flex flex-col items-center">
       <Title title="Mobil tətbiqi yükləyin" />

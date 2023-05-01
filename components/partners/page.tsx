@@ -13,7 +13,7 @@ import Link from "next/link";
 
 SwiperCore.use([Autoplay]);
 
-const Partners = () => {
+const Partners = (): JSX.Element => {
   const partners = [
     {
       href: "1",
@@ -57,8 +57,9 @@ const Partners = () => {
           className="mySwiper"
           slidesPerView={6}
           spaceBetween={36}
-          speed={2000}
-          loop={true}
+          speed={3000}
+          loopedSlides={7}
+          loop={false}
           autoplay={{
             delay: 0,
           }}

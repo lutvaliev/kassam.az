@@ -5,9 +5,18 @@
 }
 
 .step .step_icon{
+    transition: .3s ease-in-out;
     padding: 28px;
     border-radius: 24px;
     display: inline-block;
+}
+
+.step .step_icon:hover{
+    transform: rotate(45deg);
+}
+
+.step .step_icon:hover svg{
+    transform: rotate(-45deg);
 }
 
 .step .step_icon img{

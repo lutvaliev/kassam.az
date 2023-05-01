@@ -5,10 +5,22 @@
 }
 
 .service:hover{
+    background-color: #0B0D17;
     border: 2px solid #0B0D17;
 }
 
-.service:hover .service_icon, .service:hover h6{
+.service:hover .service_icon{
+    transition: .3s ease-in-out;
+    transform: scale(1.4);
+    color: white !important;
+}
+
+.services .service:hover h6.service_title{
     transition: .3s ease-in-out;
     transform: scale(1.2);
+    color: white !important;
+}
+
+.service:hover .service_icon svg path{
+    fill: white;
 }

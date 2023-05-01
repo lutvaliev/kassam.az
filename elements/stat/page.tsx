@@ -6,7 +6,7 @@ interface Props {
   title: string;
 }
 
-const Stat = ({ num, title }: Props) => {
+const Stat = ({ num, title }: Props): JSX.Element => {
   return (
     <div className="stats">
       <h1 className="stat_number">{num} +</h1>

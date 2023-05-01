@@ -3,15 +3,15 @@ import "./style.css";
 interface Props {
   title?: string;
   subtitle?: string;
-  icon?: string;
+  icon?: any;
   color?: string;
 }
 
-const Step = ({ title, subtitle, icon, color }: Props) => {
+const Step = ({ title, subtitle, icon, color }: Props): JSX.Element => {
   return (
     <div className="step">
       <div className="step_icon" style={{ background: `${color}` }}>
-        <img src={icon} alt="" />
+        {icon}
       </div>
       <div className="step_info">
         <h4 className="step_info-title">{title}</h4>

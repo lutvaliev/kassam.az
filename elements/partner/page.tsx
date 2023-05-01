@@ -6,7 +6,7 @@ interface Props {
   href: string;
 }
 
-const Partner = ({ img, href }: Props) => {
+const Partner = ({ img, href }: Props): JSX.Element => {
   return (
     <Link href={href} className="partner">
       <img src={img} alt="" />

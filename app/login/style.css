@@ -1,0 +1,28 @@
+.logIn{
+    color: #3A3A3A ;
+}
+
+.login_form-section{
+    border-left: 2px solid #0A033C;
+}
+
+.login_form-section a{
+    color: #3E73DB;
+}
+
+.social_media{
+    border: 1px solid #DEDDE4
+}
+
+.social_media:hover{
+    transition: .3s ease-in-out;
+    background-color: #1e1f21;
+}
+
+.login_form-input{
+    border: 1px solid #DEDDE4
+}
+
+.login_button{
+    background-color: #28303F;
+}

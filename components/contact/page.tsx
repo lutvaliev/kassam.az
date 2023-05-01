@@ -5,7 +5,7 @@ import "./style.css";
 import Title from "@/elements/title/page";
 import Subtitle from "@/elements/subtitle/page";
 
-const Contact = () => {
+const Contact = (): JSX.Element => {
   const [formValues, setFormValues] = useState({
     name: "",
     email: "",

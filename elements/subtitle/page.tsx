@@ -5,7 +5,7 @@ interface Props {
   subtitle?: string;
 }
 
-const Subtitle = ({ subtitle }: Props) => {
+const Subtitle = ({ subtitle }: Props): JSX.Element => {
   return <p className="subtitle mx-auto">{subtitle}</p>;
 };
 
