@@ -14,8 +14,6 @@ const Contact = (): JSX.Element => {
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log(formValues);
   };
 
   const handleInputChange = (e: any) => {

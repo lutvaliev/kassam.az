@@ -8,16 +8,7 @@ import Select from "../select/page";
 const Modal = ({ show, modalInfo, setModalInfo, modal, setModal }: any) => {
   const [subtitle, setSubtitle] = useState<boolean>(false);
   const [forms, setForms] = useState<boolean>(false);
-  // const ref = useRef(null);
-  // useEffect(() => {
-  //   if (document.activeElement === ref.current) {
-  //     console.log("element has focus");
-  //   } else {
-  //     console.log("element does NOT have focus");
-  //   }
-  // }, []);
 
-  console.log(modalInfo);
   return (
     <section
       className={`${show} fixed w-full h-screen top-0 left-0 flex items-center justify-center`}
